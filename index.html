@@ -1,0 +1,71 @@
+---
+layout: default
+crawlertitle: "Netflify Weekly Dashboard"
+title: "Netflify Weekly Dashboard"
+summary: ""
+---
+
+<div class="heroWrapper">
+  <div class="hero">
+    <div class="container light">
+      <h1>Welcome {{site.data.siteInfo.userName}}!</h1>
+      <h3>Let's see what your Netlify sites have been up to this week</h3>
+    </div>
+  </div>
+
+  <div class="wave">
+    <svg viewBox="0 0 1440 120" id="wave" width="100%" height="100%">
+        <path d="M1440,21.2101911 L1440,120 L0,120 L0,21.2101911 C120,35.0700637 240,42 360,42 C480,42 600,35.0700637 720,21.2101911 C808.32779,12.416393 874.573633,6.87702029 918.737528,4.59207306 C972.491685,1.8109458 1026.24584,0.420382166 1080,0.420382166 C1200,0.420382166 1320,7.35031847 1440,21.2101911 Z"></path>
+      </svg>
+  </div>
+</div>
+
+<div class="announcement container">
+  <h2><span id="totalDeployment"></span> deployments across <span id="totalSites"></span> sites</h2>
+  <p>Wow you've been busy!</p>
+</div>
+
+<div class="sitesWrapper container clearfix" id="cardWrapper">
+
+  {% for site in site.data.siteInfo.sites %}
+    <div class="card">
+      <h3 class="dark">{{site.name}}</h3>
+      <ul>
+        <li>{{site.weeklyReports[0].deploys | size}} deployments</li>
+        <li>{{site.weeklyReports[0].traffic.uniqueVisitors}} unique page views</li>
+        <li>{{site.weeklyReports[0].netlifyFeaturesUsed | size}} new Netlify features</li>
+      </ul>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="announcement container">
+    <h2>How does that stack up from last week?</h2>
+    <p>Comparative view for all your sites</p>
+    <ul class="chart" id="barchart">
+        <li class="clearfix" >
+          <span  class="thisWeek" id="thisWeekDeployments"" title="Deployments"></span>
+        </li> 
+        <li>
+          <span  class="lastWeek" id="lastWeekDeployments"></span>
+        </li>
+        <li class="clearfix" >
+          <span  class="thisWeek" id="thisWeekPageViews" title="Unique Page Views"></span>
+        </li> 
+        <li class="clearfix">
+          <span  class="lastWeek" id="lastWeekPageViews"></span>
+        </li>
+        <li class="clearfix">
+          <span  class="thisWeek" id="thisWeekNewFeatures" title="New Netlify Features"></span>
+        </li> 
+        <li class="clearfix">
+          <span  class="lastWeek" id="lastWeekNewFeatures"></span>
+        </li>
+        <li class="clearfix">
+          <span  class="thisWeek" id="thisWeekAll" title="All Activity"></span>
+        </li> 
+        <li class="clearfix">
+          <span  class="lastWeek" id="lastWeekAll"></span>
+        </li>
+      </ul>  
+  </div>

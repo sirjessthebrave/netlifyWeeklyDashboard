@@ -1,0 +1,84 @@
+{
+	"userName": "Tessa",
+	"sites": [{
+    "name": "My Personal Site",
+    "id": "wje882gnjjJ*7hfs",
+    "repo": "https://github.com/dummyUser/myPersonalSite",
+    "weeklyReports" : [{
+      "deploys": ["Fri Sep 14 2018 13:19:18 GMT-0400", "Thurs Sep 13 2018 11:40:18 GMT-0400", "Wed Sep 12 2018 20:33:18 GMT-0400"],
+      "traffic": {
+        "uniqueVisitors": "300",
+        "sources": [{
+          "sourceName": "google.com",
+          "sourceReferrals": "100"
+        }, {
+          "sourceName": "twitter.com",
+          "sourceReferrals": "50"
+        }],
+        "lengthOfVisit": "30000"
+      },
+      "netlifyFeaturesUsed": [
+        "functions",
+        "identity",
+        "forms"
+      ]
+    },
+    {
+      "deploys": ["Mon Sep 03 2018 9:19:34 GMT-0400", "Tue Sep 04 2018 11:05:22 GMT-0400", "Wed Sep 05 2018 14:14:16 GMT-0400"],
+      "traffic": {
+        "uniqueVisitors": "740",
+        "sources": [{
+          "sourceName": "google.com",
+          "sourceReferrals": "180"
+        }, {
+          "sourceName": "twitter.com",
+          "sourceReferrals": "79"
+        }],
+        "lengthOfVisit": "30000"
+      },
+      "netlifyFeaturesUsed": [
+        "functions"
+      ]
+    }]
+	},{
+    "name": "My Personal Site 2",
+    "id": "2j3jf*dnfkwJEU",
+    "repo": "https://github.com/dummyUser/myPersonalSite2",
+    "weeklyReports" : [{
+      "deploys": ["Fri Sep 14 2018 13:19:18 GMT-0400", "Thurs Sep 13 2018 11:40:18 GMT-0400", "Wed Sep 12 2018 20:33:18 GMT-0400"],
+      "traffic": {
+        "uniqueVisitors": "300",
+        "sources": [{
+          "sourceName": "google.com",
+          "sourceReferrals": "100"
+        }, {
+          "sourceName": "twitter.com",
+          "sourceReferrals": "50"
+        }],
+        "lengthOfVisit": "30000"
+      },
+      "netlifyFeaturesUsed": [
+        "functions",
+        "identity",
+        "forms"
+      ]
+    },
+    {
+      "deploys": ["Mon Sep 03 2018 9:19:34 GMT-0400", "Tue Sep 04 2018 11:05:22 GMT-0400", "Wed Sep 05 2018 14:14:16 GMT-0400"],
+      "traffic": {
+        "uniqueVisitors": "740",
+        "sources": [{
+          "sourceName": "google.com",
+          "sourceReferrals": "180"
+        }, {
+          "sourceName": "twitter.com",
+          "sourceReferrals": "79"
+        }],
+        "lengthOfVisit": "30000"
+      },
+      "netlifyFeaturesUsed": [
+        "functions"
+      ]
+    }]
+	}]
+}

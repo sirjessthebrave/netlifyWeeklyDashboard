@@ -1,0 +1,16 @@
+.logo{
+  height: 70px;
+  margin-top: 20px;
+  text-transform: lowercase;
+  font-size: 40px;
+}
+.logo img {
+  height: 80%;
+}
+nav {
+  position: absolute;
+  width: 100%;
+  top:0;
+  margin-bottom: 50px;
+  z-index: 2;
+}

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1085px){
+  .card {
+    width: 46%;
+  }
+}
+@media only screen and (max-width: 600px){
+  .card {
+    width: 100%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
