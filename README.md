@@ -3,6 +3,7 @@
 **Current Assumptions and Reasoning**
 - The data structure has no real bearing on true data. Since I didn't know what existing API's might have or what customers might be interested, I took the recommendations from the directions as well as potential stats I would be interested in as someone who hosts multiple websites.
 - I first started with vanilla JS and CSS - this was to work though the concept of my dashboard without having to do a ton of setup before my thoughts were clear - you can see this work in the `firstStepWorkingFiles`. Once I got an idea of where I was going I decided to port the concept into a Jekyll blog, mostly because of ease of set up and knowledge of the technology (I have multiple Jekyll blogs setup so I could copy over their configs). 
+- there are two siteInfo.json files where the data lives - please update both if you want to see the site with more/different data.
 
 **Improvements**
 - Find out what users actually want from this kind of dashboard and what data Netlify currently has access to.
@@ -10,6 +11,7 @@
 - Add some branding and styling to match Netlify's sites more closely.
 - Simplify the calculations for the graphs or look into a more powerful graphing library (d3?) to give users a better look into their data.
 - Give each site it's own more detailed page or view after clicking on that site's card. This would give the user a more refined look into that site's specific stats.
+- Make sure there is only one data source (right now data/siteInfo.json and assets/js/siteInfo.json have to be updated manually - make this copying happen automatically or deploy the data to a CDN/call from API)
 
 **How would you approach implementing a news feed like this, and what would you have to consider when developing this to work across a range of browsers and devices?**
 
