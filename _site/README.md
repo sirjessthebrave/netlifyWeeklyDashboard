@@ -1,4 +1,4 @@
-### About:
+### Netlify Weekly Dashboard
 
 **Current Assumptions and Reasoning**
 - The data structure has no real bearing on true data. Since I didn't know what existing API's might have or what customers might be interested, I took the recommendations from the directions as well as potential stats I would be interested in as someone who hosts multiple websites.
@@ -20,7 +20,7 @@
 
 - Email newsletters are best kept simple and sweet. I would first again, want to know more about what users are most interested in, what data Netlify currently has, and what is missing. Then, clean and organize any data before knitting together and HTML email. Have some kind of template that is very simple - highlighting a few key data points and providing links to any more complicated graphics. Once the data is cleaned, I would consider the end technology used to build this app - will it stay a simple page as I have made it? Will it be ported over to a full framework? If so, does that framework have any build in helpers or libraries that can assist in sending emails to users? For example if the back end is Node, looking into a helper library such as: `https://github.com/niftylettuce/email-templates` or if services like MailChimp have API's where we could send data to be formatted properly. HTML emails are often quite finicky so I like to rely on companies/services that focus on them specifically and use their up to date templates! I would trigger the email service to run once a week with the general overview and links back to the user's dashboard. 
 
-### Build:
+### Build
 Build: JEKYLL_ENV=production jekyll build --watch
 Serve: jekyll serve
 

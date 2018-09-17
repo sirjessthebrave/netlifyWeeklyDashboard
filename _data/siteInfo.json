@@ -20,7 +20,8 @@
       "netlifyFeaturesUsed": [
         "functions",
         "identity",
-        "forms"
+        "forms",
+        "Continuous Deployment"
       ]
     },
     {
@@ -37,7 +38,8 @@
         "lengthOfVisit": "30000"
       },
       "netlifyFeaturesUsed": [
-        "functions"
+        "functions",
+        "Continuous Deployment"
       ]
     }]
 	},{
@@ -47,7 +49,7 @@
     "weeklyReports" : [{
       "deploys": ["Fri Sep 14 2018 13:19:18 GMT-0400"],
       "traffic": {
-        "uniqueVisitors": "300",
+        "uniqueVisitors": "2354",
         "sources": [{
           "sourceName": "google.com",
           "sourceReferrals": "100"
@@ -58,6 +60,7 @@
         "lengthOfVisit": "30000"
       },
       "netlifyFeaturesUsed": [
+        "Continuous Deployment",
         "identity",
         "forms"
       ]
@@ -76,6 +79,7 @@
         "lengthOfVisit": "30000"
       },
       "netlifyFeaturesUsed": [
+        "Continuous Deployment",
         "functions"
       ]
     }]
@@ -98,6 +102,7 @@
       },
       "netlifyFeaturesUsed": [
         "identity",
+        "Continuous Deployment",
         "forms"
       ]
     },
@@ -115,7 +120,8 @@
         "lengthOfVisit": "30000"
       },
       "netlifyFeaturesUsed": [
-        "functions"
+        "functions",
+        "forms"
       ]
     }]
 	}]

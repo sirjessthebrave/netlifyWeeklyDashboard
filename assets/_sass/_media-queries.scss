@@ -18,10 +18,10 @@
   }
   .links li{
     display: block;
-    border-right: none;
+    border-right: none !important;
     padding-bottom: 5px;
   }
   .chart {
-    width: 100%; 
+    width: 100% !important; 
   }
 }

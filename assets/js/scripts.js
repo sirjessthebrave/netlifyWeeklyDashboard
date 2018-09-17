@@ -62,6 +62,8 @@ bars.thisWeekPageViews = bars.thisWeekPageViews / 100;
 bars.lastWeekPageViews = bars.lastWeekPageViews / 100;
 
   for (const bar in bars) {
-    document.getElementById(bar).style.height = bars[bar] + "%";
+    element = document.getElementById(bar)
+    element.style.height = bars[bar] + "%";
+    element.innerText = Math.floor(bars[bar]);
   }
 }

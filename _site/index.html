@@ -15,26 +15,26 @@
   <meta name="description" content="A weekly dashboard of your Netflify sites.
 ">
 
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="alternate" type="application/rss+xml" title="Netlify Weekly Dashboard" href="http://localhost:4000/feed.xml">
+  <link rel="canonical" href="/">
+  <link rel="alternate" type="application/rss+xml" title="Netlify Weekly Dashboard" href="/feed.xml">
 
   <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|Roboto+Condensed:700&subset=latin' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/assets/css/main.css">
 
-  <meta property="og:url" content="http://localhost:4000/">
+  <meta property="og:url" content="/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Netflify Weekly Dashboard">
   <meta property="og:description" content="">
   <meta property="og:site_name" content="Netlify Weekly Dashboard">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="http://localhost:4000/">
+  <meta name="twitter:url" content="/">
   <meta name="twitter:title" content="Netflify Weekly Dashboard">
   <meta name="twitter:description" content="">
 
   
-    <meta property="og:image" content="http://localhost:4000/assets/images/bg.svg">
-    <meta name="twitter:image" content="http://localhost:4000/assets/images/bg.svg">
+    <meta property="og:image" content="/assets/images/bg.svg">
+    <meta name="twitter:image" content="/assets/images/bg.svg">
   
 
 </head>
@@ -80,7 +80,7 @@
       <ul>
         <li>3 deployments</li>
         <li>300 unique page views</li>
-        <li>3 new Netlify features</li>
+        <li>4 new Netlify features</li>
       </ul>
     </div>
   
@@ -88,8 +88,8 @@
       <h3 class="dark">My Personal Site 2</h3>
       <ul>
         <li>1 deployments</li>
-        <li>300 unique page views</li>
-        <li>2 new Netlify features</li>
+        <li>2354 unique page views</li>
+        <li>3 new Netlify features</li>
       </ul>
     </div>
   
@@ -98,7 +98,7 @@
       <ul>
         <li>8 deployments</li>
         <li>942 unique page views</li>
-        <li>2 new Netlify features</li>
+        <li>3 new Netlify features</li>
       </ul>
     </div>
   
@@ -107,6 +107,7 @@
 <div class="announcement container">
     <h2>How does that stack up from last week?</h2>
     <p>Comparative view for all your sites</p>
+    <div class="legend"><span class="thisWeek">This Week</span> <span class="lastWeek" >Last Week</span></div>
     <ul class="chart" id="barchart">
         <li class="clearfix" >
           <span  class="thisWeek" id="thisWeekDeployments"" title="Deployments"></span>
@@ -115,7 +116,7 @@
           <span  class="lastWeek" id="lastWeekDeployments"></span>
         </li>
         <li class="clearfix" >
-          <span  class="thisWeek" id="thisWeekPageViews" title="Unique Page Views"></span>
+          <span  class="thisWeek" id="thisWeekPageViews" title="Unique Page Views / 100"></span>
         </li> 
         <li class="clearfix">
           <span  class="lastWeek" id="lastWeekPageViews"></span>
@@ -127,7 +128,7 @@
           <span  class="lastWeek" id="lastWeekNewFeatures"></span>
         </li>
         <li class="clearfix">
-          <span  class="thisWeek" id="thisWeekAll" title="All Activity"></span>
+          <span  class="thisWeek" id="thisWeekAll" title="All Activity / 100"></span>
         </li> 
         <li class="clearfix">
           <span  class="lastWeek" id="lastWeekAll"></span>

@@ -21,6 +21,8 @@
     margin:2px;
     display: block;
     background: rgba(#00b09f, .75);
+    font-size: 10px;
+    color: #fff;
   }
   .lastWeek {
     background: rgba(14,30,37,0.38);
@@ -39,6 +41,20 @@
     word-wrap: break-word;
     width: 200%;
     box-sizing: border-box;
+    font-size: 14px;
+    color: rgba(14,30,37,0.54);
   }
   
+}
+.legend {
+  margin-top: 20px;
+  span {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .thisWeek {
+    border-bottom:solid 5px rgba(#00b09f, .75);
+  }.lastWeek {
+    border-bottom:solid 5px rgba(14,30,37,0.38);
+  }
 }
